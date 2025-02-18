@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes wave {
+  0% {
+    transform: translateY(0) translateX(0);
+  }
+  50% {
+    transform: translateY(-10px) translateX(10px);
+  }
+  100% {
+    transform: translateY(0) translateX(0);
+  }
+}
+
+@keyframes wave-reverse {
+  0% {
+    transform: translateY(0) translateX(0);
+  }
+  50% {
+    transform: translateY(10px) translateX(-10px);
+  }
+  100% {
+    transform: translateY(0) translateX(0);
+  }
+}
+
+@keyframes wave-slow {
+  0% {
+    transform: translateY(0) translateX(0);
+  }
+  50% {
+    transform: translateY(-15px) translateX(15px);
+  }
+  100% {
+    transform: translateY(0) translateX(0);
+  }
+}
+
+@layer utilities {
+  .animate-wave {
+    animation: wave 8s ease-in-out infinite;
+  }
+  .animate-wave-reverse {
+    animation: wave-reverse 10s ease-in-out infinite;
+  }
+  .animate-wave-slow {
+    animation: wave-slow 12s ease-in-out infinite;
+  }
+}
