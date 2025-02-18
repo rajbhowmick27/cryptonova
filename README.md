@@ -207,6 +207,10 @@ const calculateSocialVolatility = (metrics: SocialMetrics): number => {
 
 The predictions and analysis provided by CryptoNova are based on historical data, social metrics, and market analysis. Cryptocurrency markets are highly volatile, and past performance does not guarantee future results. Always conduct your own research and never invest more than you can afford to lose.
 
+## Try Out
+
+https://hilarious-bienenstitch-adba88.netlify.app/
+
 ## License
 
 MIT License - Copyright (c) 2025 CryptoNova
